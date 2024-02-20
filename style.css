@@ -13,25 +13,19 @@ h3 {
 
 .header {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   color: #375423;
   font-weight: bolder;
-  margin-bottom: -100px;
+  margin-bottom: -70px;
 }
 
 .menu {
-  padding-left: 30%;
-  position: relative;
-  font-size: 24pt;
-}
-
-.menu-text {
-  display: inline-block;
+  font-size: 28pt;
+  position: relative; // when commented out, affects position you have to click??
 }
 
 .title {
-  display: inline-block;
-  position: relative;
-  left: -360px;
   font-size: 30pt;
 }
 
@@ -65,9 +59,9 @@ a:hover {
 
 .pageTitle {
   display: flex;
+  justify-content: center;
   border-bottom: 5px solid #A6866A;
   font-size: 55pt;
-  justify-content: center;
   font-family: Caveat;
 }
 
@@ -86,6 +80,8 @@ a:hover {
 }
 
 .tripleColumn {
+  display: flex;
+  flex-wrap: wrap;
   padding-left: 20px;
 
 }
@@ -102,14 +98,13 @@ a:hover {
 }
 
 .thumbnail {
-  display: inline-block;
   width: 32%;
   aspect-ratio: 1/1;
   object-fit: cover;
+  margin: 5px;
 }
 
 .thumbnail2 {
-  display: inline-block;
   width: 70%;
   aspect-ratio: 1/1;
   padding-bottom: 50px;
@@ -124,8 +119,8 @@ a:hover {
 
 .textbox2 {
   display: flex;
-  font-family: Caveat;
   justify-content: center;
+  font-family: Caveat;
   margin-left: 150px;
   margin-right: 150px;
 }
